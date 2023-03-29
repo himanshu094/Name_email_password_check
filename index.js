@@ -91,3 +91,19 @@ function display()
  dResult.innerHTML=cName;
   
 }
+
+function change(){
+  
+  if(pic4.title=='Show Password')
+  {
+    inputPassword.type='text'
+   pic4.title='Hide Password'
+   pic4.src='show.png' 
+  }
+  else
+  {
+    inputPassword.type='password'
+  pic4.title='Show Password'
+  pic4.src='hide.png' 
+ }
+}
