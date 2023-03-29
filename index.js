@@ -78,3 +78,16 @@ function emailCheck()
    pic3.src="right.png"          
   pResult.innerHTML=output+"</h6>"
 }
+
+function display()
+{
+ let fName=inputName.value.split(" ")
+ let cName="";
+ for(let i=0;i<fName.length;i++)
+ {
+   cName+=fName[i].slice(0,1).toUpperCase()+fName[i].slice(1).toLowerCase()+" ";
+ }
+ 
+ dResult.innerHTML=cName;
+  
+}
