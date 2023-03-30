@@ -34,7 +34,7 @@ function emailCheck()
         
       if( (email.indexOf("@")==email.lastIndexOf("@")) && email.lastIndexOf("@")!=-1 )
         {   let n=email.indexOf("@")                
-            if( (email.indexOf(".",n)==email.lastIndexOf(".")) && email.lastIndexOf(".")!=-1 ) 
+            if( (email.indexOf(".",n)==email.lastIndexOf(".")) && email.lastIndexOf(".")!=-1 && email.charAt(n+1)!=".") 
                 pic2.src="right.png";                                   
         }
           
